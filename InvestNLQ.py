@@ -90,5 +90,5 @@ def handle_query(query):
 
 # Main
 if __name__ == "__main__":
-    query = 'What is the current price of apple?'
+    query = 'What is the current price of bitcoin?'
     print(handle_query(query))
