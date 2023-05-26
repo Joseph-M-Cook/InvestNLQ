@@ -1,4 +1,4 @@
 # InvestNLQ
 <div align="center">
-  <img src ="https://github.com/Joseph-M-Cook/Twitter-Google-GPT/blob/1f027a7ec56b0445e45ce5369c61e7b236ab67d5/TwitterGoogleGPT.png"
+  <img src ="https://github.com/Joseph-M-Cook/InvestNLQ/blob/64f8f1038cd300a89d5a45d8f814282c14076c7e/NLQ_Logo.png"
 </div>
