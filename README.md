@@ -4,7 +4,28 @@
 </div>
 <div align="left">
   
-## Description
-InvestNLQ is a versatile tool designed to translate natural language queries into data requests pertaining to stocks and cryptocurrencies. Utilizing the power of OpenAI's GPT-4 model, it enables users to simply ask financial queries in plain English, which are then translated to symbol and call type (i.e., 'stock' or 'crypto').
+## Overview
+InvestNLQ is an advanced financial data retrieval tool that translates natural language queries into data requests for stocks and cryptocurrencies. It uses OpenAI's GPT-4 model to interpret user queries into specific symbols and types (stock or crypto). The application fetches real-time financial data from Alpha Vantage and Finnhub APIs, serving users interested in stocks and cryptocurrencies.
 
-InvestNLQ integrates Alpha Vantage API to fetch real-time financial data, supporting a wide range of queries for both stock market and cryptocurrency data. Whether you're interested in Apple's latest stock price or the current value of Bitcoin, InvestNLQ is your go-to solution for streamlined financial data access.
+## Installation
+1. Clone the repository:
+```
+git clone https://github.com/[Your Github Username]/InvestNLQ.git
+```
+2. Install the required dependencies:
+```
+pip install -r requirements.txt
+```
+3. Set up API keys. You need to provide your own API keys for Alpha Vantage, Finnhub, and OpenAI:
+- `FINNHUB_API_KEY`
+- `AV_API_KEY`
+- `openai.api_key`
+4. Run the script and enter your query in the command line interface:
+```
+python InvestNLQ.py
+```
+## Disclaimer
+The financial data provided by this application is intended for informational purposes only. Always conduct thorough research before making investment decisions. Please use this responsibly and ensure you comply with Alpha Vantage's, Finnhub's, and OpenAI's terms of service.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
