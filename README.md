@@ -10,7 +10,7 @@ InvestNLQ is an advanced financial data retrieval tool that translates natural l
 ## Installation
 1. Clone the repository:
 ```
-git clone https://github.com/[Your Github Username]/InvestNLQ.git
+git clone https://github.com/[Joseph-M-Cook]/InvestNLQ.git
 ```
 2. Install the required dependencies:
 ```
